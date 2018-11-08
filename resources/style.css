@@ -3,7 +3,7 @@ a {
   color: black;
 }
 div {
-  border: 2px black solid;
+  border: 1px black solid;
 }
 
 /* Header */
@@ -38,5 +38,26 @@ nav span {
 }
 /* Main Content */
 main {
+  display: flex;
+  justify-content: space-between;
+}
+.column {
+  display: flex;
+  margin: 0px 15px;
+}
 
+.column .large {
+  diplay: flex;
+  flex-direction: column;
+  width: 630px;
+}
+.column .medium {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.column .small {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
 }
