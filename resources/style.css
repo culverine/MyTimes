@@ -2,6 +2,9 @@
 a {
   color: black;
 }
+div {
+  border: 2px black solid;
+}
 
 /* Header */
 header {
@@ -35,5 +38,5 @@ nav span {
 }
 /* Main Content */
 main {
-  
+
 }
