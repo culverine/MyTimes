@@ -1,13 +1,15 @@
+
 a {
   color: black;
 }
+
 /* Header */
 header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  display: flex;
   border-bottom: 1px black solid;
+  display: flex;
   width: 100%;
   align-items: center;
 }
@@ -30,4 +32,8 @@ header nav {
 }
 nav span {
   padding: 20px 10px;
+}
+/* Main Content */
+main {
+  
 }
